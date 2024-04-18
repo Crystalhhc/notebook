@@ -1,0 +1,13 @@
+prefix=/Users/chenhsihu/mkdocs/notebook/env
+exec_prefix=/Users/chenhsihu/mkdocs/notebook/env
+libdir=/Users/chenhsihu/mkdocs/notebook/env/lib
+sharedlibdir=/Users/chenhsihu/mkdocs/notebook/env/lib
+includedir=/Users/chenhsihu/mkdocs/notebook/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
